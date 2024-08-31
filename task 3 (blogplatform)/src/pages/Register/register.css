@@ -1,0 +1,43 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url();
+    background-size: cover;
+}
+.regisTitle{
+    font-size: 50px;
+}
+.regisForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.regisForm > label{
+    margin: 10px 0;
+}
+.regisInput{
+    padding: 10px;
+    background-color: beige;
+    border: none;
+}
+.regisBut{
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+}
+.regisLoginBut{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #ff004f;
+    border-radius: 10px;
+    border: none;
+}
